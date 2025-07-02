@@ -1,13 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Opcional: scroll personalizado */
-::-webkit-scrollbar {
-  width: 8px;
-  background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-  background: #bbb;
-  border-radius: 6px;
-}
+@import "tailwindcss";
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;

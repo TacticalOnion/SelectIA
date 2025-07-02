@@ -34,6 +34,8 @@ function App() {
 
   return (
     <div className="flex h-screen bg-white">
+      
+      
       <CalendarSidebar
         events={EVENTS}
         selectedDate={selectedDate}
